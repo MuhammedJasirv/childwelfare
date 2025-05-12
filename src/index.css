@@ -1,0 +1,39 @@
+@import "tailwindcss";
+
+
+@theme {
+  --font-display: "Satoshi", "sans-serif";
+   --font-nav: "Nunito Sans", sans-serif;
+   --font-malayalam: ['"FML-TTKaumudi"', 'Noto Sans Malayalam', 'sans-serif'];
+  /* Text Color  */
+  --color-textgree:#7D8611;
+  --color-textligthgree:#87AC18;
+  /* BackGround Colors */
+  --color-navgreenBg:#3B4010;
+  --color-bg:#F0F0F0;
+  --color-secondbg:#F4FFD3;
+  --color-thirdbg:#FDFFEF;
+
+
+  /* Border Colors */
+  --color-borderbg:#C5DFC2;
+
+  /* Breakpoints   */
+
+  --breakpoint-mobile: 360px;
+  --breakpoint-sm: 640px;
+  --breakpoint-md: 768px;
+  --breakpoint-lg: 1024px;
+  --breakpoint-xl: 1280px;
+  --breakpoint-2xl: 1536px;
+  --breakpoint-4k: 2560px;
+
+  /* ... */
+}
+
+@font-face {
+  font-family: 'FML-TTKaumudi';
+  src: url('../public/fonts/FML-TTKaumudi.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+}
