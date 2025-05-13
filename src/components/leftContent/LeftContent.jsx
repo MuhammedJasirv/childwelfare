@@ -33,19 +33,19 @@ const LeftContent = () => {
             </p>
             <div className="flex items-center mt-[3px] xs:mt-[4px] sm:mt-[5px] md:mt-[6px] lg:mt-[7px] xl:mt-[8px] 2xl:mt-3 gap-1">
               <img src={Dress} alt="Dress" className="w-[8px] xs:w-[9px] sm:w-[10px] md:w-[11px] lg:w-[12px] h-auto" />
-              <p className="font-malayalam text-black font-bold text-[10px] sm:text-[8px] md:text-[9px] lg:text-[9px] xl:text-[9px] 2xl:text-[12px]">
+              <p className="font-malayalam text-black font-bold text-[10px] sm:text-[8px] md:text-[9px] lg:text-[9px] xl:text-[9px] 2xl:text-[10px]">
                 വസ്ത്രങ്ങൾ
               </p>
             </div>
             <div className="flex items-center mt-[2px] xs:mt-[3px] sm:mt-[4px] md:mt-[5px] lg:mt-[6px] xl:mt-[7px] 2xl:mt-2 gap-1">
               <img src={Lotion} alt="Lotion" className="w-[8px] xs:w-[9px] sm:w-[10px] md:w-[11px] lg:w-[12px] h-auto" />
-              <p className="font-malayalam text-black font-bold text-[10px]  sm:text-[8px] md:text-[9px] lg:text-[9px] xl:text-[9px] 2xl:text-[12px]">
+              <p className="font-malayalam text-black font-bold text-[10px]  sm:text-[8px] md:text-[9px] lg:text-[9px] xl:text-[9px] 2xl:text-[10px]">
                 ദൈനംദിന ഉപയോഗ സാധനങ്ങൾ
               </p>
             </div>
             <div className="flex items-center mt-[2px] xs:mt-[3px] sm:mt-[4px] md:mt-[5px] lg:mt-[6px] xl:mt-[7px] 2xl:mt-2 gap-1">
               <img src={Food} alt="Food" className="w-[8px] xs:w-[9px] sm:w-[10px] md:w-[11px] lg:w-[12px] h-auto" />
-              <p className="font-malayalam text-black font-bold text-[10px]  sm:text-[8px] md:text-[9px] lg:text-[9px] xl:text-[9px] 2xl:text-[12px]">
+              <p className="font-malayalam text-black font-bold text-[10px]  sm:text-[8px] md:text-[9px] lg:text-[9px] xl:text-[9px] 2xl:text-[10px]">
                 ഭക്ഷണം
               </p>
             </div>
@@ -58,13 +58,13 @@ const LeftContent = () => {
             <p className="text-textgree font-extrabold font-malayalam text-[12px]  sm:text-[10px] md:text-[11px] lg:text-[12px] xl:text-[13px]">
               എങ്ങനെ സഹായിക്കാം?
             </p>
-            <p className="text-black font-bold mt-[3px] xs:mt-[4px] sm:mt-[5px] md:mt-[6px] lg:mt-[7px] xl:mt-[8px] 2xl:mt-2 text-[10px]  sm:text-[8px] md:text-[9px] lg:text-[9px] xl:text-[9px] 2xl:text-[12px]">
+            <p className="text-black font-bold mt-[3px] xs:mt-[4px] sm:mt-[5px] md:mt-[6px] lg:mt-[7px] xl:mt-[8px] 2xl:mt-2 text-[10px]  sm:text-[8px] md:text-[9px] lg:text-[9px] xl:text-[9px] 2xl:text-[10px]">
               ഞങ്ങളുടെ വെബ്സൈറ്റ് സന്ദർശിക്കുക
             </p>
             <p className="text-textligthgree font-bold text-[10px]  sm:text-[10px] md:text-[11px] lg:text-[12px] xl:text-[12px] 2xl:text-[14px] mt-[3px] xs:mt-[4px] sm:mt-[5px] md:mt-[6px] lg:mt-[7px] xl:mt-[8px] 2xl:mt-2">
               : 👉DONATE NOW
             </p>
-            <p className="text-black font-malayalam font-bold text-[10px]  sm:text-[8px] md:text-[9px] lg:text-[9px] xl:text-[9px] 2xl:text-[12px] mt-[3px] xs:mt-[4px] sm:mt-[5px] md:mt-[6px] lg:mt-[7px] xl:mt-[8px] 2xl:mt-2">
+            <p className="text-black font-malayalam font-bold text-[10px]  sm:text-[8px] md:text-[9px] lg:text-[9px] xl:text-[9px] 2xl:text-[10px] mt-[3px] xs:mt-[4px] sm:mt-[5px] md:mt-[6px] lg:mt-[7px] xl:mt-[8px] 2xl:mt-2">
               നിങ്ങളുടെ സംഭാവന ഓർഡർ ചെയ്യു.
             </p>
           </div>
