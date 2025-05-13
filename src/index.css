@@ -1,10 +1,11 @@
 @import "tailwindcss";
-
+@import url('https://fonts.googleapis.com/css2?family=Arima:wght@100..700&family=Nunito+Sans:ital,wght@0,200;1,200&family=Roboto:wght@300;400;500;700&family=Satoshi:wght@300;400;500;700&display=swap');
 
 @theme {
   --font-display: "Satoshi", "sans-serif";
    --font-nav: "Nunito Sans", sans-serif;
-   --font-malayalam: ['"FML-TTKaumudi"',  'sans-serif'];
+   --font-malayalam: "Arima",cursor;
+   /* --font-new: "Arima", cursive; */
   /* Text Color  */
   --color-textgree:#7D8611;
   --color-textligthgree:#87AC18;
