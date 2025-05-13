@@ -8,15 +8,15 @@ const Home = () => {
   return (
     <div className='bg-bg '>
         <NavBar/>
-        <div className='flex gap-2 p-4 px-10'>
-          <div className='w-[55%]'>
+        <div className='flex flex-col lg:flex-row gap-2 p-4 px-4 lg:px-10'>
+          <div className='w-full lg:w-[55%]'>
             <Carousel/>
           </div>
-          <div className='w-[45%]'>
+          <div className='w-full lg:w-[45%]'>
             <LeftContent/>
           </div>
         </div>
-        <div className='px-10 pb-10'>
+        <div className='lg:px-10 px-4 pb-10'>
           <FooterContent/>
         </div>
     </div>
