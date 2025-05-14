@@ -3,6 +3,7 @@ import NavBar from '../components/navigation/NavBar'
 import Carousel from '../components/carousels/Carousel'
 import LeftContent from '../components/leftContent/LeftContent'
 import FooterContent from '../components/footerContent/FooterContent'
+import CopyrightFooter from '../components/copyrightFooter/CopyrightFooter'
 
 const Home = () => {
   return (
@@ -19,6 +20,7 @@ const Home = () => {
         <div className='lg:px-10 px-4 pb-10'>
           <FooterContent/>
         </div>
+        <CopyrightFooter/>
     </div>
   )
 }

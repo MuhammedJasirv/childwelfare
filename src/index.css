@@ -4,7 +4,7 @@
 @theme {
   --font-display: "Satoshi", "sans-serif";
    --font-nav: "Nunito Sans", sans-serif;
-   --font-malayalam: "Arima",cursor;
+   --font-malayalam: "Arima",sans-serif;
    /* --font-new: "Arima", cursive; */
   /* Text Color  */
   --color-textgree:#7D8611;
@@ -25,6 +25,7 @@
   --breakpoint-sm: 640px;
   --breakpoint-md: 768px;
   --breakpoint-lg: 1024px;
+  --breakpoint-nv: 1139px;
   --breakpoint-xl: 1280px;
   --breakpoint-2xl: 1536px;
   --breakpoint-4k: 2560px;

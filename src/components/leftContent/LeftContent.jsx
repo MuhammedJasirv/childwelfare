@@ -2,6 +2,8 @@ import React from "react";
 import Dress from "../../assets/images/lefticon/dress 1.png";
 import Lotion from "../../assets/images/lefticon/lotion.png";
 import Food from "../../assets/images/lefticon/salad.png";
+import { motion } from "framer-motion";
+
 
 const LeftContent = () => {
   return (
@@ -61,9 +63,17 @@ const LeftContent = () => {
             <p className="text-black font-bold mt-[3px] xs:mt-[4px] sm:mt-[5px] md:mt-[6px] lg:mt-[7px] xl:mt-[8px] 2xl:mt-2 text-[10px]  sm:text-[8px] md:text-[9px] lg:text-[9px] xl:text-[9px] 2xl:text-[10px]">
               ഞങ്ങളുടെ വെബ്സൈറ്റ് സന്ദർശിക്കുക
             </p>
-            <p className="text-textligthgree font-bold text-[10px]  sm:text-[10px] md:text-[11px] lg:text-[12px] xl:text-[12px] 2xl:text-[14px] mt-[3px] xs:mt-[4px] sm:mt-[5px] md:mt-[6px] lg:mt-[7px] xl:mt-[8px] 2xl:mt-2">
-              : 👉DONATE NOW
-            </p>
+            <motion.p
+  className="text-textligthgree font-bold text-[10px] sm:text-[10px] md:text-[11px] lg:text-[12px] xl:text-[12px] 2xl:text-[16px] mt-[3px] xs:mt-[4px] sm:mt-[5px] md:mt-[6px] lg:mt-[7px] xl:mt-[6px] "
+  animate={{ opacity: [1, 0, 1] }}
+  transition={{
+    duration: 1,
+    repeat: Infinity,
+    ease: "easeInOut"
+  }}
+>
+  : 👉DONATE NOW
+</motion.p>
             <p className="text-black font-malayalam font-bold text-[10px]  sm:text-[8px] md:text-[9px] lg:text-[9px] xl:text-[9px] 2xl:text-[10px] mt-[3px] xs:mt-[4px] sm:mt-[5px] md:mt-[6px] lg:mt-[7px] xl:mt-[8px] 2xl:mt-2">
               നിങ്ങളുടെ സംഭാവന ഓർഡർ ചെയ്യു.
             </p>
