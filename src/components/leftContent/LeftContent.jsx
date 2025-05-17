@@ -9,7 +9,7 @@ const LeftContent = () => {
   return (
     <div className="bg-secondbg rounded-xl p-3 py-4 border-2 border-borderbg w-full h-full">
       {/* Text paragraphs - Maintained exact sizing hierarchy */}
-      <p className="font-malayalam font-normal sm:font-extrabold text-[10px] xs:text-[6px] sm:text-[7px] md:text-[8px] lg:text-[9px] xl:text-[10px] 2xl:text-[11px]">
+      <p className="font-malayalam font-normal sm:font-extrabold text-[10px] xs:text-[6px] sm:text-[7px] md:text-[8px] lg:text-[9px] xl:text-[10px] 2xl:text-[11px] ">
         അമ്മത്തൊട്ടിൽ വഴിയും മറ്റും സാഹചര്യങ്ങളിലും ഉപേക്ഷിക്കപ്പെട്ട വളർത്താൻ
         കഴിയാതെ രക്ഷിതാക്കൾ നേരിട്ട് ഏൽപ്പിക്കുന്നതുമായ കുട്ടികളെ
         സംരക്ഷിക്കുന്നതാണ് ശിശുക്ഷേമ സമിതിയുടെ പ്രധാന ദൗത്യം .ഇവർക്ക് സ്‌നേഹവും

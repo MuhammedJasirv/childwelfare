@@ -18,7 +18,7 @@ const Home = () => {
           </div>
         </div>
         <div className='lg:px-10 px-4 pb-10 mt-0 md:mt-3'>
-          <FooterContent/>
+          <FooterContent/>  
         </div>
         <CopyrightFooter/>
     </div>
