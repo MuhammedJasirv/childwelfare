@@ -7,7 +7,7 @@ import { motion } from "framer-motion";
 
 const LeftContent = () => {
   return (
-    <div className="bg-secondbg rounded-xl p-3 py-4 border-2 border-borderbg w-full">
+    <div className="bg-secondbg rounded-xl p-3 py-4 border-2 border-borderbg w-full h-full">
       {/* Text paragraphs - Maintained exact sizing hierarchy */}
       <p className="font-malayalam font-normal sm:font-extrabold text-[10px] xs:text-[6px] sm:text-[7px] md:text-[8px] lg:text-[9px] xl:text-[10px] 2xl:text-[11px]">
         അമ്മത്തൊട്ടിൽ വഴിയും മറ്റും സാഹചര്യങ്ങളിലും ഉപേക്ഷിക്കപ്പെട്ട വളർത്താൻ
@@ -64,7 +64,7 @@ const LeftContent = () => {
               ഞങ്ങളുടെ വെബ്സൈറ്റ് സന്ദർശിക്കുക
             </p>
             <motion.p
-  className="text-textligthgree font-bold text-[10px] sm:text-[10px] md:text-[11px] lg:text-[12px] xl:text-[12px] 2xl:text-[16px] mt-[3px] xs:mt-[4px] sm:mt-[5px] md:mt-[6px] lg:mt-[7px] xl:mt-[6px] "
+  className="text-[#0020f2b9] font-bold text-[10px] sm:text-[10px] md:text-[11px] lg:text-[12px] xl:text-[12px] 2xl:text-[16px] mt-[3px] xs:mt-[4px] sm:mt-[5px] md:mt-[6px] lg:mt-[7px] xl:mt-[6px] "
   animate={{ opacity: [1, 0, 1] }}
   transition={{
     duration: 1,

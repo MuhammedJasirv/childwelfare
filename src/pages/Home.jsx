@@ -10,14 +10,14 @@ const Home = () => {
     <div className='bg-bg '>
         <NavBar/>
         <div className='flex flex-col lg:flex-row gap-2 p-4 px-4 lg:px-10'>
-          <div className='w-full lg:w-[55%]'>
+          <div className='w-full lg:w-[55%] '>
             <Carousel/>
           </div>
           <div className='w-full lg:w-[45%]'>
             <LeftContent/>
           </div>
         </div>
-        <div className='lg:px-10 px-4 pb-10'>
+        <div className='lg:px-10 px-4 pb-10 mt-0 md:mt-3'>
           <FooterContent/>
         </div>
         <CopyrightFooter/>
