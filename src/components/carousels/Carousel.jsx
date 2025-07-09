@@ -71,7 +71,7 @@ const Carousel = () => {
             <img
               src={current.bg}
               alt="background"
-              className="w-full h-auto object-cover rounded-xl"
+              className="w-full h-auto object-cover rounded-xl "
             />
 
             {/* Overlay */}
